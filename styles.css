@@ -25,12 +25,14 @@ button {
 	color: white;
 	font:weight: 900;
 	font-size: 1.2rem;
-	border: none;
+	border: default;
 	padding:1em 3em;
 	margin: 2em auto;
 	display:block;
-
-	transition: background .6s ease-in, transform .2s ease-out;
+	
+	//first transition eases in the background transition in half a second
+	transition: background .5s ease-in, transform .2s ease-out; 
+	
 }
 
 button:hover {
