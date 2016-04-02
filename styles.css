@@ -35,7 +35,7 @@ button {
 
 button:hover {
 	background: #c61140;
-	transform: scale(1.4) rotateX(45deg);
+	transform: scale(1.4) rotateX(45deg); //scale up 1.4 times the size 
 }
 
 
